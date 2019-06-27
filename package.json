@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "dylanblokhuis <dylanblokhuis3@hotmail.com>",
   "repository": {
-    "url": "dylanblokhuis/svelte-feather-icons",
+    "url": "dylanblokhuis/svelte-eva-icons",
     "type": "git"
   },
   "svelte": "src/index.js",

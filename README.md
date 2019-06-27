@@ -11,6 +11,7 @@ npm install --save-dev svelte-eva-icons
 ```
 
 ## Usage
+Unused icons will get removed with tree shaking in bundlers like webpack and rollup.
 ```html
     <script>
         // Only import what you need!
