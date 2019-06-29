@@ -15,7 +15,7 @@ const icons = Object.keys(eva).map(name => ({
 }))
 
 Promise.all(icons.map(icon => {
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">${eva[icon.name]}</svg>`
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24">${eva[icon.name]}</svg>`
   const component = componentTemplate(icon.kebabCasedComponentName, svg)
   const filepath = `./src/icons/${icon.pascalCasedComponentName}.svelte`
   return fs.ensureDir(path.dirname(filepath))
