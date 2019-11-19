@@ -15,14 +15,15 @@ Unused icons will get removed with tree shaking in bundlers like webpack and rol
 ```html
     <script>
         // Only import what you need!
-    	import { ActivityIcon, ArrowCircleDownIcon, ... } from 'svelte-eva-icons'
+        // Add Outline for an outline icon
+    	import { AlertCircleIcon, AlertCircleOutlineIcon, ... } from 'svelte-eva-icons'
     </script>
     
-    <!-- When using custom elements -->
-    <activity-icon />
-    
-    <!-- When using regular svelte compontent -->
-    <ActivityIcon />
+    <!-- Regular Icon -->
+    <AlertCircleIcon />
+
+    <!-- Outline Icon -->
+    <AlertCircleOutlineIcon />
 ```
 All icons you find on the creator's site are in kebab-case, when importing use {PascalCase}Icon.
 See all icons here: https://akveo.github.io/eva-icons/

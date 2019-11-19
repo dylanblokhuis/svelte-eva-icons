@@ -1,7 +1,7 @@
 {
   "name": "svelte-eva-icons",
   "description": "Eva icons for Svelte",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "author": "dylanblokhuis <dylanblokhuis3@hotmail.com>",
   "repository": {
     "url": "dylanblokhuis/svelte-eva-icons",
@@ -23,14 +23,14 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "eva-icons": "^1.1.1",
-    "fs-extra": "^8.0.1",
+    "eva-icons": "^1.1.2",
+    "fs-extra": "^8.1.0",
     "pascal-case": "^2.0.1",
     "path": "^0.12.7",
     "rollup": "latest",
-    "rollup-plugin-node-resolve": "^5.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-svelte": "latest",
-    "rollup-plugin-terser": "^5.0.0",
+    "rollup-plugin-terser": "^5.1.2",
     "svelte": "latest"
   },
   "keywords": [
